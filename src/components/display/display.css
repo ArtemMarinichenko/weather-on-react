@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 419px) {
   .cityTemp {
-    font-size: 100px;
+    font-size: 85px;
     line-height: 130px;
   }
   .humidity, .description {
@@ -90,11 +90,14 @@
   .humidity span, .description span {
     font-size: 32px;
   }
+  .shadowColdDown {
+    text-shadow: -1px -1px 0 #8f8ff5, -4px -13px 5px #1b1818;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .cityTemp {
-    font-size: 80px;
+    font-size: 75px;
     line-height: 120px;
   }
   .cityName {
@@ -102,7 +105,7 @@
   }
   .humidity, .description {
     font-size: 35px;
-    line-height: 48px;
+    line-height: 40px;
   }
   .humidity span, .description span {
     font-size: 28px;
@@ -114,7 +117,7 @@
 
 @media only screen and (max-width: 320px) {
   .cityTemp {
-    font-size: 66px;
+    font-size: 60px;
     line-height: 90px;
   }
   .Display {

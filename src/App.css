@@ -130,6 +130,18 @@ img {
   .content {
     height: auto;
   }
+  img {
+    width: 120px;
+  }
+  .date, .day {
+    font-size: 32px;
+  }
+  .year, .month {
+    font-size: 20px;
+  }
+  .month, .date, .day {
+    font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 320px) {

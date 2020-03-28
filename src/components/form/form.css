@@ -87,4 +87,13 @@ button:focus, button:active {
     min-width: 300px;
     text-align: center;
   }
+  .Form div {
+    flex-direction: column;
+    align-items: center;
+  }
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-left: 0;
+  }
 }
