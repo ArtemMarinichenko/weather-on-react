@@ -1,0 +1,133 @@
+.App {
+  height: 100vh;  
+  background: rgb(57, 52, 48);
+  background-size: cover;
+}
+
+.rain {
+  background: url('https://avatars.mds.yandex.net/get-pdb/216365/c17a8012-1d84-4696-bb7f-9b158183b262/orig');
+  height: 100vh; 
+  background-size: cover;
+}
+.clearSky {
+  background: url('https://v-pravda.ru/wp-content/uploads/2020/01/25722583.jpg');
+  height: 100vh; 
+  background-size: cover;
+}
+.clouds {
+  background: url('https://novostipmr.com/sites/default/files/field/image/201703/d257d394-6679-413d-a67f-8d0a7adc175d.jpg');
+  height: 100vh; 
+  background-size: cover;
+}
+.mist {
+  background: url('https://kiev.informator.ua/wp-content/uploads/2020/02/weather_21.02.jpg');
+  height: 100vh; 
+  background-size: cover;
+}
+.snow {
+  background: url('https://lh3.googleusercontent.com/proxy/2CWLeAlnW2gjEme3VRfFhlpxx7ec9cmxclPiOkph92kpr_CSPEg0K5UhMPEbUSJhdnr1iwY3pGCeU8l0AA-nPD1AdbnZcB0');
+  height: 100vh; 
+  background-size: cover;
+}
+
+.wrapper {
+  background: rgba(57, 52, 48, .8);
+  height: 100%;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.date {
+  color: #fff;
+  font-size: 66px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.month {
+  color: cornflowerblue;
+  font-size: 28px;
+}
+
+.day {
+  color: tomato;
+  font-size: 66px;
+  line-height: 13px;
+  font-weight: 600;
+}
+
+.year {
+  color: green;
+  font-size: 28px;
+  /* line-height: 0; */
+}
+
+.totalDateTime {
+  min-width: 240px;
+}
+
+.header {
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  height: calc(100% - 120px);
+}
+
+.d1, .d2 {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+
+@media only screen and (max-width: 991px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  img {
+    width: 150px;
+  }
+
+  .date, .day {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .date, .day {
+    font-size: 38px;
+  }
+  .day {
+    line-height: 1;
+  }
+  .year, .month {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .d1, .d2 {
+    display: flex;
+    justify-content: center;
+  }
+  .totalDateTime {
+    margin-top: 20px;
+    min-width: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .content {
+    height: auto;
+  }
+}

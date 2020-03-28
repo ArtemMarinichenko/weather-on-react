@@ -1,0 +1,90 @@
+.Form {
+  min-width: 350px;
+}
+
+.form-control {
+  max-width: 200px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ada3a6;
+  border-radius: 0;
+  color: #ada3a6;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #75686c;
+  color: #ada3a6;
+}
+
+button {
+  background: rgb(36,33,30);
+  background: linear-gradient(90deg, rgba(47, 43, 39, 1) 0%, rgba(56,53,46,1) 50%, rgba(66,60,55,1) 100%);
+  border: none;
+  color: #ada3a6;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-left: 10px;
+  /* box-shadow: 1px 3px 5px 0px #2d2929; */
+  font-weight: 500;
+  transition: box-shadow .2s;
+}
+
+.darkShadow {
+  box-shadow: 1px 3px 5px 0px #2d2929;
+}
+
+.lightShadow {
+  box-shadow: -1px 2px 0 0 #655739, 1px 7px 5px #2d2929;
+}
+
+button:active {
+  background: linear-gradient(180deg, rgba(47, 43, 39, 1) 0%, rgba(56,53,46,1) 50%, rgba(66,60,55,1) 100%);
+  color: #ada3a6;
+}
+
+button:hover {
+  color: #ada3a6;
+  box-shadow: none;
+}
+
+button:hover .lightShadow {
+  box-shadow: -1px 2px 0 0 #655739 !important;
+}
+
+button:focus, button:active {
+  outline: none;
+  border: none;
+}
+
+.manual {
+  padding: 10px 17px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .17);
+}
+
+.manual p {
+  color: orange;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .Form {
+    order: 1;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  .form-control {
+    width: 150px;
+  }
+  .Form {
+    min-width: 300px;
+    text-align: center;
+  }
+}

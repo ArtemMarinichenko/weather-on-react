@@ -1,0 +1,123 @@
+.alert {
+  color: tomato;
+  font-size: 30px;
+}
+
+.cityName {
+  font-size: 65px;
+  text-transform: uppercase;
+  color: #313131;
+  font-weight: 700;
+  text-shadow: -1px 3px 0 #7d693b, -4px 13px 5px #1b1818;
+}
+
+.humidity, .description {
+  font-size: 56px;
+  color: #313131;
+  text-shadow: -1px -3px 0 #7d693b, -4px -13px 5px #1b1818;
+  font-weight: bold;
+  line-height: 65px;
+}
+
+.shadowCold {
+  text-shadow: -1px 3px 0 #8f8ff5, -4px 13px 5px #1b1818;
+}
+
+.shadowColdDown {
+  text-shadow: -1px -3px 0 #8f8ff5, -4px -13px 5px #1b1818;
+}
+
+.humidity span, .description span {
+  font-weight: normal;
+  color: #313131;
+  font-size: 40px;
+  text-shadow: -1px -1px 0 #7d693b, -4px -9px 5px #1b1818;
+}
+
+.cityTemp {
+  font-size: 200px;
+  color: #393430;
+  line-height: 175px;
+  text-shadow: 3px 3px 6px #3e2e2e, 0 0 2em yellow, 0 0 0.3em yellow;
+  /* text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18; */
+  
+
+  /* color: #FFFFFF; */
+  /* background: #232323; */
+  /* text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18; */
+}
+
+.cityTempCold {
+  font-size: 200px;
+  color: #393430;
+  line-height: 175px;
+  text-shadow: 3px 3px 6px #3e2e2e, 0 0 2em #8f8ff5, 0 0 0.3em #8f8ff5;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .cityTemp {
+    font-size: 150px;
+  }
+  .cityName {
+    font-size: 50px;
+  }
+  .humidity, .description {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .cityTemp {
+    font-size: 130px;
+  }
+  .cityName {
+    font-size: 50px;
+  }
+  .humidity, .description {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .cityTemp {
+    font-size: 120px;
+    line-height: 130px;
+  }
+  .humidity, .description {
+    line-height: 52px;
+  }
+  .humidity span, .description span {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .cityTemp {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  .cityName {
+    font-size: 42px;
+  }
+  .humidity, .description {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .humidity span, .description span {
+    font-size: 28px;
+  }
+  .Display {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cityTemp {
+    font-size: 78px;
+    line-height: 90px;
+  }
+  .Display {
+    margin-top: 10px;
+  }
+}
