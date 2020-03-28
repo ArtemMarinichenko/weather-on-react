@@ -94,6 +94,8 @@ export default class App extends React.Component {
         break;
       case "Snow": weather = "snow";
         break;
+      case "Thunderstorm": weather = "flashLight";
+        break;
     }
    
     return (

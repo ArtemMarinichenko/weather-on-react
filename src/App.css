@@ -29,9 +29,14 @@
   height: 100vh; 
   background-size: cover;
 }
+.flashLight {
+  background: url('https://static.tunnel.ru//media/images/2016-09/post_comment/229482/image.gif');
+  height: 100vh; 
+  background-size: cover;
+}
 
 .wrapper {
-  background: rgba(57, 52, 48, .8);
+  background: rgba(133, 109, 89, 0.45);
   height: 100%;
 }
 
