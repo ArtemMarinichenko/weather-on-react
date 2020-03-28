@@ -94,7 +94,7 @@
 
 @media only screen and (max-width: 375px) {
   .cityTemp {
-    font-size: 92px;
+    font-size: 80px;
     line-height: 120px;
   }
   .cityName {
@@ -114,7 +114,7 @@
 
 @media only screen and (max-width: 320px) {
   .cityTemp {
-    font-size: 78px;
+    font-size: 66px;
     line-height: 90px;
   }
   .Display {
