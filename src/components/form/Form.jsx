@@ -29,7 +29,7 @@ export default class Form extends React.Component {
       <form className="Form mt-4" onSubmit={this.handleSubmit}>
         <div className="d-flex">
           <input
-            type="text"
+            type="search"
             className="form-control"
             placeholder="Search city"
             value={this.state.cityName}

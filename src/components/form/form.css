@@ -20,6 +20,10 @@
   color: #cac2c4;
 }
 
+input[type="search"]::-webkit-input-placeholder {
+  color: #cac2c4;
+}
+
 button {
   background: rgb(36,33,30);
   background: linear-gradient(90deg, rgba(47, 43, 39, 1) 0%, rgba(56,53,46,1) 50%, rgba(66,60,55,1) 100%);
