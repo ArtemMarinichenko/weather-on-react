@@ -61,10 +61,10 @@ export default class App extends React.Component {
   };
 
   toDay() {
-    const arrDays = ['Monday', 'Tuesday', 'Wednesday', 'Thurs', 'Friday', 'Saturday', 'Sunday'];
+    const arrDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const date = new Date();
     const day = date.getDay();
-    return arrDays[day - 1];
+    return arrDays[day];
   }
 
   currentMonth() {
@@ -117,7 +117,7 @@ export default class App extends React.Component {
                   <span className="date">{new Date().getDate()}</span>                                                  
                 </div>               
                 <div className="d2">
-                  <span className="day">{this.toDay()} </span>
+                  <span className="day">{this.toDay()}</span>
                   <span className="year">{new Date().getFullYear()}</span>
                 </div>
               </div>
